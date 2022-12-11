@@ -1,7 +1,0 @@
-{
-  "python.formatting.provider": "black",
-  "files.exclude": {
-    "__init__.py": true,
-    "__pycache__": true
-  }
-}
