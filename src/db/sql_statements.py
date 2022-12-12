@@ -25,15 +25,17 @@ class Payday:
 class User:
     # Selects
     select_check_user_exists = "SELECT COUNT(1) FROM users WHERE username = ?"
+    select_user = "SELECT * from users WHERE username = ?"
     
     # Inserts
-    insert_user = "INSERT INTO users (username, author) VALUES (?,?)"
+    insert_user = "INSERT INTO users (username, user_id, author) VALUES (?,?,?)"
 
 
 class Character:
     # Selects
     select_check_character_exists = "SELECT COUNT(1) FROM characters WHERE character_name = ?"
-    select_user_characters = "SELECT character_name, level FROM characters WHERE username = ?"
+    select_user_characters = "SELECT * FROM characters WHERE username = ?"
+    select_character_by_character_name = "SELECT * FROM characters WHERE character_name = ?"
     
     # Inserts
     insert_character = "INSERT INTO characters (character_name, level, username, author) VALUES (?,?,?,?)"
@@ -70,9 +72,7 @@ class MoneyPerLevel:
 
 
 class Tables:
-    all_tables = []
-
-    all_tables.append("""
+    all_tables = ["""
         CREATE TABLE IF NOT EXISTS rewards (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             character_name VARCHAR(255),
@@ -83,26 +83,21 @@ class Tables:
             soul_stone BOOLEAN NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
         )
-    """)
-
-    all_tables.append("""
+    """, """
         CREATE TABLE IF NOT EXISTS payday (
             username VARCHAR(255) PRIMARY KEY,
             claimed BOOLEAN NOT NULL,
             author VARCHAR(255) NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
         )
-    """)
-
-    all_tables.append("""
+    """, """
         CREATE TABLE IF NOT EXISTS users (
             username VARCHAR(255) PRIMARY KEY,
+            user_id VARCHAR(255) NOT NULL,
             author VARCHAR(255) NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
         )
-    """)
-
-    all_tables.append("""
+    """, """
         CREATE TABLE IF NOT EXISTS characters (
             character_name VARCHAR(255) PRIMARY KEY,
             level INT NOT NULL,
@@ -111,14 +106,12 @@ class Tables:
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
             FOREIGN KEY (username) REFERENCES user(username)
         )
-    """)
-
-    all_tables.append("""
+    """, """
         CREATE TABLE IF NOT EXISTS money_per_level (
             level INT NOT NULL PRIMARY KEY,
             copper_pieces INT NOT NULL,
             author VARCHAR(255) NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
         )
-    """)
+    """]
     
