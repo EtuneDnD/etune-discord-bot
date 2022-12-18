@@ -108,6 +108,7 @@ class Tables:
             author VARCHAR(255) NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
             actor_base64 TEXT DEFAULT NULL,
+            pushed BOOLEAN DEFAULT 0,
             FOREIGN KEY (username) REFERENCES user(username)
         )
     """, """
