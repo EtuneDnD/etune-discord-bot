@@ -3,7 +3,7 @@
 ``pip install -r requirements.txt``
 
 # Estructura de carpetas
-
+asdasd
 ## db
 Todo lo relacionado con la base de datos, tanto configuración como todas las cadenas de texto literales que representan sentencias SQL.
 ## logic
