@@ -40,6 +40,9 @@ class Character:
     # Inserts
     insert_character = "INSERT INTO characters (character_name, level, username, author) VALUES (?,?,?,?)"
 
+    # Updates
+    update_character = "UPDATE characters (level, username, author, actor_base64) VALUES (?,?,?,?) WHERE character_name = ?"
+
 
 class MoneyPerLevel:
     # Selects
@@ -104,6 +107,7 @@ class Tables:
             username VARCHAR(255),
             author VARCHAR(255) NOT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            actor_base64 TEXT DEFAULT NULL,
             FOREIGN KEY (username) REFERENCES user(username)
         )
     """, """
