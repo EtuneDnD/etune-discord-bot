@@ -16,7 +16,7 @@ def prepare_tables():
     for create_table_statement in sql_statements.Tables.all_tables:
         cur.execute(create_table_statement)
 
-    # cur.execute(sql_statements.MoneyPerLevel.insert_default_money_per_level)
+    cur.execute(sql_statements.MoneyPerLevel.insert_default_money_per_level)
 
     con.commit()
     con.close()

@@ -5,12 +5,13 @@ from main.db.sql_statements import Character as RewardSql
 
 
 class Character:
-    def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None):
+    def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None, actor_base64: str=None):
         self.name = name
         self.level = level
         self.username = username
         self.author = author
         self.insertion_time = insertion_time
+        self.actor_base64 = actor_base64
 
     def insert_character(self, connection: Connection) -> None:
         cur = connection.cursor()
@@ -21,6 +22,20 @@ class Character:
                 self.level,
                 self.username,
                 self.author
+            )
+        )
+        cur.close()
+
+    def update(self, connection: Connection) -> None:
+        cur = connection.cursor()
+        cur.execute(
+            RewardSql.update_character,
+            (
+                self.level,
+                self.username,
+                self.author,
+                self.actor_base64,
+                self.name
             )
         )
         cur.close()

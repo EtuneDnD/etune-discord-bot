@@ -1,8 +1,11 @@
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.status import HTTP_204_NO_CONTENT
 
 from main.logic.models.reward import Reward
+from main.logic.usecases.update_actor.update_actor import UpdateActor
+from main.server.dto.ActorUpdateDTO import ActorUpdateDTO
 
 app = FastAPI(debug=True)
 
@@ -28,6 +31,11 @@ async def root(character_name: str):
             "money": False if (tupla[1] == 0) else True
         } for tupla in result
     ]
+
+
+@app.put("/actor/{character_name}", status_code=HTTP_204_NO_CONTENT)
+async def root(character_name: str, actor_update: ActorUpdateDTO):
+    UpdateActor(character_name, actor_update).execute()
 
 
 def init_fastapi():
