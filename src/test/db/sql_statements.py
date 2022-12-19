@@ -2,10 +2,10 @@ class Reward:
     # Selects
     select_exists_rewards = "SELECT COUNT(1) FROM rewards WHERE character_name = ? AND applied = 0;"
     select_rewads = "SELECT time_played, soul_stone, money FROM rewards WHERE character_name = ? AND applied = 0;"
-    
+
     # Inserts
     insert_reward = "INSERT INTO rewards (character_name, time_played, money, applied, author, soul_stone) VALUES (?,?,?,?,?,?)"
-    
+
     # Updates
     update_rewards_consumed = "UPDATE rewards SET applied = 1 WHERE character_name = ? AND applied = 0;"
 
@@ -26,7 +26,7 @@ class User:
     # Selects
     select_check_user_exists = "SELECT COUNT(1) FROM users WHERE username = ?"
     select_user = "SELECT * from users WHERE username = ?"
-    
+
     # Inserts
     insert_user = "INSERT INTO users (username, user_id, author) VALUES (?,?,?)"
 
@@ -36,7 +36,7 @@ class Character:
     select_check_character_exists = "SELECT COUNT(1) FROM characters WHERE character_name = ?"
     select_user_characters = "SELECT * FROM characters WHERE username = ?"
     select_character_by_character_name = "SELECT * FROM characters WHERE character_name = ?"
-    
+
     # Inserts
     insert_character = "INSERT INTO characters (character_name, level, username, author) VALUES (?,?,?,?)"
 
@@ -44,7 +44,7 @@ class Character:
 class MoneyPerLevel:
     # Selects
     select_all = "SELECT level, copper_pieces FROM money_per_level"
-    
+
     # Inserts
     insert_default_money_per_level = """
         INSERT INTO money_per_level (level, copper_pieces, author) VALUES
@@ -114,4 +114,3 @@ class Tables:
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
         )
     """]
-    
