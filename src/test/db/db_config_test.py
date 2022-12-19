@@ -38,4 +38,3 @@ def drop_tables():
 def commit_close(con):
     con.commit()
     con.close()
-
