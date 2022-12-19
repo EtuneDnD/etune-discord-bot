@@ -77,14 +77,14 @@ class MoneyPerLevel:
 class Tables:
     all_tables = ["""
         CREATE TABLE IF NOT EXISTS rewards (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
             character_name VARCHAR(255),
             time_played INT NOT NULL,
             money INT NOT NULL,
             applied BOOLEAN NOT NULL,
             author VARCHAR(255) NOT NULL,
             soul_stone BOOLEAN NOT NULL,
-            insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+            insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            reward_id INTEGER PRIMARY KEY AUTOINCREMENT
         )
     """, """
         CREATE TABLE IF NOT EXISTS payday (

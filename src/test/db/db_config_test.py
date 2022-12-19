@@ -26,10 +26,13 @@ def drop_tables():
     con = connect()
 
     tables = ['characters', 'money_per_level', 'payday', 'rewards', 'users']
-    for table in tables:
-        con.execute(f"DROP TABLE {table}")
+    try:
+        for table in tables:
+            con.execute(f"DROP TABLE {table}")
 
-    commit_close(con)
+        commit_close(con)
+    except Exception:
+        pass
 
 
 def commit_close(con):

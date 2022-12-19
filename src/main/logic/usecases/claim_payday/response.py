@@ -5,3 +5,4 @@ class Response:
     def __init__(self, status: str, characters: list[CharacterRewardSummary]):
         self.status = status
         self.characters = characters
+

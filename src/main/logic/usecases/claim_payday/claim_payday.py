@@ -16,7 +16,7 @@ class ClaimPaydayUseCase:
         self.username = username
         self.author = author
 
-    def execute(self, con=connect()) -> Response:
+    def execute(self, con) -> Response:
         characters = Character.get_characters_by_username(con, self.username)
 
         if len(characters) > 0:
@@ -38,17 +38,17 @@ class ClaimPaydayUseCase:
     @staticmethod
     def _claim_and_add_reward(con, username, characters, author):
         Payday.set_claimed(con, username)
-        ClaimPaydayUseCase._add_reward_per_level_to_characters(con, characters, author)
+        character_reward_list = ClaimPaydayUseCase._add_reward_per_level_to_characters(con, characters, author)
         commit_close(con)
 
-        return Response("payday_claimed_succesfully", characters)
+        return Response("payday_claimed_succesfully", character_reward_list)
 
     @staticmethod
     def _add_new_claimer_and_add_reward(con, username, characters, author):
         Payday(username, True, author).insert_new_claimer(con)
-        ClaimPaydayUseCase._add_reward_per_level_to_characters(con, characters, author)
+        character_reward_list = ClaimPaydayUseCase._add_reward_per_level_to_characters(con, characters, author)
         commit_close(con)
-        return Response("new_claimer_inserted", characters)
+        return Response("new_claimer_inserted", character_reward_list)
 
     @staticmethod
     def _add_reward_per_level_to_characters(
@@ -59,7 +59,7 @@ class ClaimPaydayUseCase:
         for character in characters:
             money = ClaimPaydayUseCase._get_money_for_level(con, character)
             Reward(character.name, 0, money, False, author).insert_reward(con)
-            character_reward_list.append(CharacterRewardSummary(character.name, money))
+            character_reward_list.append(CharacterRewardSummary(character.name, character.level, money))
         return character_reward_list
 
     @staticmethod
