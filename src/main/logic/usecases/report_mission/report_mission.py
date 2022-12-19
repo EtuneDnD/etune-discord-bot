@@ -1,4 +1,4 @@
-from sqlite3 import Cursor, Connection
+from sqlite3 import Connection
 
 from main.db import db_config
 from main.logic.models.character import Character

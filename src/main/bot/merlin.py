@@ -5,8 +5,9 @@ from dotenv import load_dotenv
 
 from main.bot import responses
 from main.db.db_config import connect
-from main.logic.exceptions.CustomExceptions import UserHasNoCharactersError, PaydayAlreadyClaimedError
-from main.logic.logic_api import ClaimPaydayUseCase, ReportMissionUseCase
+from main.logic.exceptions.CustomExceptions import UserHasNoCharactersError, PaydayAlreadyClaimedError, \
+    CharacterAlreadyExistsError
+from main.logic.logic_api import ClaimPaydayUseCase, ReportMissionUseCase, RegisterCharacterUseCase
 
 bot = discord.Bot()
 
@@ -21,7 +22,8 @@ async def on_ready():
 async def add_reward(ctx, mission_title: str, time_played_minutes: int, character_names: str, mission_report: str):
     character_names_list = character_names.split(" ")
 
-    character_users = ReportMissionUseCase(character_names_list, time_played_minutes, 0, str(ctx.author)).execute(connect())
+    character_users = ReportMissionUseCase(character_names_list, time_played_minutes, 0, str(ctx.author)).execute(
+        connect())
     msg = responses.get_report_mission(mission_title, character_users, time_played_minutes, mission_report)
 
     await ctx.respond(msg)
@@ -42,18 +44,12 @@ async def claim_payday(ctx):
 @bot.command(name="registrar_usuario_y_personaje", description="Registra un personaje para un usario.")
 async def register_user_and_character(ctx, user: discord.Option(discord.Member, "Select a user"), character_name: str,
                                       level: int):
-    print("wip")
-    # response = logic_api.assign_user_with_chracter(str(user), str(user.id), character_name, level, str(ctx.author))
-    #
-    # if response == "inserted_new_user":
-    #     await ctx.respond(
-    #         f"Se ha creado el nuevo usuario ***{str(user)}*** y se le ha añadido el personaje ***{character_name} [LvL {str(level)}]*** a la lista de personajes.")
-    # elif response == "added_new_character":
-    #     await ctx.respond(
-    #         f"Se ha añadido a ***{character_name} [LvL {str(level)}]*** a la lista de personajes de {str(user)}.")
-    # elif response == "character_already_exists":
-    #     await ctx.respond(
-    #         f"El personaje ***{character_name}*** ya está en la lista de personajes de ***{str(user)}***.")
+    try:
+        response = RegisterCharacterUseCase(str(user), str(user.id), character_name, level, str(ctx.author)).execute(
+            connect())
+        await ctx.respond(responses.get_register_character_response(response))
+    except CharacterAlreadyExistsError:
+        await ctx.respond(responses.get_register_character_response_character_already_exists())
 
 
 def start_bot():

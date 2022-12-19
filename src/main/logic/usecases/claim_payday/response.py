@@ -2,7 +2,7 @@ from main.logic.usecases.claim_payday.character_reward_summary import CharacterR
 
 
 class Response:
-    def __init__(self, status: str, characters: list[CharacterRewardSummary]):
+    def __init__(self, status: str, characters_rewards: list[CharacterRewardSummary]):
         self.status = status
-        self.characters = characters
+        self.characters_rewards = characters_rewards
 

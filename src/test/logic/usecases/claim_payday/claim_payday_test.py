@@ -49,8 +49,8 @@ class TestClaimPaydayUseCase(unittest.TestCase):
         assert payday.claimed == 1
         assert result.status == "payday_claimed_succesfully"
 
-        assert CharacterRewardSummary("test_character_1", 6, 300) in result.characters
-        assert CharacterRewardSummary("test_character_2", 17, 600) in result.characters
+        assert CharacterRewardSummary("test_character_1", 6, 300) in result.characters_rewards
+        assert CharacterRewardSummary("test_character_2", 17, 600) in result.characters_rewards
 
     def test_claim_payday_returns_response_with_new_claimer_inserted(self):
         drop_tables()
@@ -88,8 +88,8 @@ class TestClaimPaydayUseCase(unittest.TestCase):
         assert payday.claimed == 1
         assert result.status == "new_claimer_inserted"
 
-        assert CharacterRewardSummary("test_character_1", 6, 300) in result.characters
-        assert CharacterRewardSummary("test_character_2", 17, 600) in result.characters
+        assert CharacterRewardSummary("test_character_1", 6, 300) in result.characters_rewards
+        assert CharacterRewardSummary("test_character_2", 17, 600) in result.characters_rewards
 
     def test_claim_payday_raises_payday_already_claimed(self):
         drop_tables()

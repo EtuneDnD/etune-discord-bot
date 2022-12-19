@@ -6,7 +6,7 @@ from main.db.sql_statements import Character as RewardSql
 
 class Character:
     def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None,
-                 actor_base64: str = None):
+                 actor_base64: str = None, *args):
         self.name = name
         self.level = level
         self.username = username
@@ -67,7 +67,7 @@ class Character:
 
         # results = [MyObject(*row) for row in cur.fetchall()]
         return [
-            Character(tupla[0], tupla[1], tupla[2], tupla[3], tupla[4]) for tupla in result
+            Character(*tupla) for tupla in result
         ]
 
     @staticmethod
