@@ -2,7 +2,7 @@ import sqlite3
 
 from main.db import sql_statements
 
-db_url = "database.db"
+db_url = "../database.db"
 
 
 def connect():
@@ -16,7 +16,10 @@ def prepare_tables():
     for create_table_statement in sql_statements.Tables.all_tables:
         cur.execute(create_table_statement)
 
-    cur.execute(sql_statements.MoneyPerLevel.insert_default_money_per_level)
+    try:
+        cur.execute(sql_statements.MoneyPerLevel.insert_default_money_per_level)
+    except sqlite3.IntegrityError:
+        pass
 
     con.commit()
     con.close()

@@ -14,6 +14,16 @@ def get_payday_response(claim_result, mention):
                f"gastes de golpe chico!... O sí, tu verás.\n\n{list_character_level_money(claim_result)} "
 
 
+def get_payday_response_user_has_no_characters(mention):
+    return f"Emmmmm... ¿Acaso te conozco {mention}?\nNo parrece que tengas ningún personaje asignado a tu nombre...\nVuelve" \
+           " después de haber creado un personaje. "
+
+
+def get_payday_response_payday_already_claimed(mention):
+    return f"¡Maldita sea {mention}!\n¡¿Cuántas veces quierrres cobrrar en una semana?!\nLargate de aquí antes de" \
+           " que te de una patada en el culo. "
+
+
 def get_report_mission(mission_title: str, characters, time_played: int, report: str):
     msg = f"La misión ***{mission_title}*** ha durado ***{time_played} minutos***.\n\nLos participantes han sido:\n"
 
