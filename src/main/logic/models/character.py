@@ -5,7 +5,8 @@ from main.db.sql_statements import Character as RewardSql
 
 
 class Character:
-    def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None, actor_base64: str=None):
+    def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None,
+                 actor_base64: str = None):
         self.name = name
         self.level = level
         self.username = username

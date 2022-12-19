@@ -1,7 +1,6 @@
 from sqlite3 import Connection
 
 from main.db.db_config import commit_close
-from main.db.db_config import connect
 from main.logic.exceptions.CustomExceptions import PaydayAlreadyClaimedError, UserHasNoCharactersError
 from main.logic.models.character import Character
 from main.logic.models.money_per_level import MoneyPerLevel
