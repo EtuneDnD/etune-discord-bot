@@ -7,7 +7,7 @@ from main.db.sql_statements import Character as RewardSql
 class Character:
     def __init__(self, name: str, level: int, username: str, author: str, insertion_time=None,
                  actor_base64: str = None, *args):
-        self.name = name
+        self.name = name.lower()
         self.level = level
         self.username = username
         self.author = author
@@ -43,6 +43,7 @@ class Character:
 
     @staticmethod
     def check_character_exists(connection: Connection, character_name: str) -> bool:
+        character_name = character_name.lower()
         cur = connection.cursor()
         cur.execute(
             RewardSql.select_check_character_exists,
@@ -72,6 +73,7 @@ class Character:
 
     @staticmethod
     def get_character_by_character_name(connection: Connection, character_name: str) -> Self:
+        character_name = character_name.lower()
         cur = connection.cursor()
         cur.execute(
             RewardSql.select_character_by_character_name,

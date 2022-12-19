@@ -43,4 +43,4 @@ class TestRegisterCharacterUseCase(unittest.TestCase):
 
         with pytest.raises(CharacterAlreadyExistsError):
             RegisterCharacterUseCase("test_user", "123", "test_character", 3, "test_author").execute(connect())
-            RegisterCharacterUseCase("test_user", "123", "test_character", 3, "test_author").execute(connect())
+            RegisterCharacterUseCase("test_user", "123", "Test_character", 3, "test_author").execute(connect())
