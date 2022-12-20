@@ -5,22 +5,16 @@ from main.db.sql_statements import Reward as RewardSql
 
 
 class Reward:
-    def __init__(self, character_name: str, time_played: int, money: int, applied: bool, author: str,
-                 soul_stone: bool = True, insertion_time: float = None, reward_id=None):
+    def __init__(self, character_name: str, money: int, applied: bool, author: str,
+                 acps: int = None, tcps: int = None, insertion_time: float = None, reward_id=None):
+        self.tcps = tcps
+        self.acps = acps
         self.insertion_time = insertion_time
         self.id = reward_id
-        self.soul_stone = soul_stone
         self.author = author
         self.applied = applied
         self.money = money
-        self.time_played = time_played
         self.character_name = character_name
-
-    @staticmethod
-    def add_rewards_to_characters(con: Connection, characters_names: List[str], time_played: int, money: int,
-                                  author: str):
-        for character_name in characters_names:
-            Reward(character_name, time_played, money, False, author).insert_reward(con)
 
     @staticmethod
     def check_rewards(con: Connection, character_name: str) -> bool:
@@ -75,14 +69,10 @@ class Reward:
 
     def insert_reward(self, con: Connection):
         cur = con.cursor()
-        soul_stone = True
-
-        if "*" in self.character_name:
-            soul_stone = False
 
         cur.execute(
             RewardSql.insert_reward,
-            (self.character_name.replace("*", ""), self.time_played, self.money, False, self.author, soul_stone)
+            (self.character_name, self.money, self.applied, self.author, self.acps, self.tcps)
         )
 
         cur.close()

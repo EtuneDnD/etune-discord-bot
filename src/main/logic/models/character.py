@@ -56,6 +56,13 @@ class Character:
         return False if result == 0 else True
 
     @staticmethod
+    def check_characters_exist(connection: Connection, character_names: list[str]) -> bool:
+        for character_name in character_names:
+            if not Character.check_character_exists(connection, character_name):
+                return False
+        return True
+
+    @staticmethod
     def get_characters_by_username(connection: Connection, username: str) -> list[Self]:
         cur = connection.cursor()
         cur.execute(
@@ -66,10 +73,7 @@ class Character:
         result = cur.fetchall()
         cur.close()
 
-        # results = [MyObject(*row) for row in cur.fetchall()]
-        return [
-            Character(*tupla) for tupla in result
-        ]
+        return [Character(*tupla) for tupla in result]
 
     @staticmethod
     def get_character_by_character_name(connection: Connection, character_name: str) -> Self:
@@ -83,7 +87,7 @@ class Character:
         result = cur.fetchone()
         cur.close()
 
-        return Character(result[0], result[1], result[2], result[3], result[4])
+        return Character(*result)
 
     @staticmethod
     def get_characters_by_character_names(connection: Connection, characters: list[str]) -> list[Self]:

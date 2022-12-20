@@ -19,12 +19,12 @@ async def on_ready():
 
 @bot.command(name="reportar_partida",
              description="Comando exclusivo de DMs que sirve para añadir ACPs y TCPs a un grupo de personajes.")
-async def add_reward(ctx, mission_title: str, time_played_minutes: int, character_names: str, mission_report: str):
+async def report_mission(ctx, mission_title: str, time_played_minutes: int, character_names: str, mission_report: str):
     character_names_list = character_names.split(" ")
 
-    character_users = ReportMissionUseCase(character_names_list, time_played_minutes, 0, str(ctx.author)).execute(
+    response = ReportMissionUseCase(character_names_list, time_played_minutes, str(ctx.author)).execute(
         connect())
-    msg = responses.get_report_mission(mission_title, character_users, time_played_minutes, mission_report)
+    msg = responses.get_report_mission(mission_title, response, time_played_minutes, mission_report)
 
     await ctx.respond(msg)
 
@@ -33,8 +33,8 @@ async def add_reward(ctx, mission_title: str, time_played_minutes: int, characte
 async def claim_payday(ctx):
     author = str(ctx.author)
     try:
-        character_users = ClaimPaydayUseCase(author, author).execute(connect())
-        await ctx.respond(responses.get_payday_response(character_users, ctx.author.mention))
+        response = ClaimPaydayUseCase(author, author).execute(connect())
+        await ctx.respond(responses.get_payday_response(response, ctx.author.mention))
     except UserHasNoCharactersError:
         await ctx.respond(responses.get_payday_response_user_has_no_characters(ctx.author.mention))
     except PaydayAlreadyClaimedError:

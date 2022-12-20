@@ -4,7 +4,7 @@ class Reward:
     select_rewads = "SELECT time_played, soul_stone, money FROM rewards WHERE character_name = ? AND applied = 0;"
 
     # Inserts
-    insert_reward = "INSERT INTO rewards (character_name, time_played, money, applied, author, soul_stone) VALUES (?,?,?,?,?,?)"
+    insert_reward = "INSERT INTO rewards (character_name, money, applied, author, acps, tcps) VALUES (?,?,?,?,?,?)"
 
     # Updates
     update_rewards_consumed = "UPDATE rewards SET applied = 1 WHERE character_name = ? AND applied = 0;"
@@ -78,11 +78,11 @@ class Tables:
     all_tables = ["""
         CREATE TABLE IF NOT EXISTS rewards (
             character_name VARCHAR(255),
-            time_played INT NOT NULL,
-            money INT NOT NULL,
+            money INT DEFAULT NULL,
             applied BOOLEAN NOT NULL,
             author VARCHAR(255) NOT NULL,
-            soul_stone BOOLEAN NOT NULL,
+            acps INT DEFAULT NULL,
+            tcps INT DEFAULT NULL,
             insertion_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
             reward_id INTEGER PRIMARY KEY AUTOINCREMENT
         )
