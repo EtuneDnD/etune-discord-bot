@@ -1,4 +1,4 @@
-from src.main.db.db_config import connect
+from main.db.db_config import connect
 
 from main.logic.models.character import Character
 from main.server.dto.actor_update_dto import ActorUpdateDTO
