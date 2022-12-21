@@ -12,7 +12,7 @@ def get_payday_response(response, mention):
 
 
 def get_payday_response_user_has_no_characters(mention):
-    return f"Emmmmm... ¿AAAAAAcaso te conozco {mention}?\nNo parrece que tengas ningún personaje asignado a tu nombre...\nVuelve" \
+    return f"Emmmmm... ¿Acaso te conozco {mention}?\nNo parrece que tengas ningún personaje asignado a tu nombre...\nVuelve" \
            " después de haber creado un personaje. "
 
 
