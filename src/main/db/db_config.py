@@ -2,7 +2,7 @@ import sqlite3
 
 from main.db import sql_statements
 
-db_url = "../database.db"
+db_url = "../../database.db"
 
 
 def connect():
