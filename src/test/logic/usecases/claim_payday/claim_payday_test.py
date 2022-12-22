@@ -40,11 +40,13 @@ class TestClaimPaydayUseCase(unittest.TestCase):
 
         assert reward_character_1.money == 300
         assert not reward_character_1.applied
-        assert reward_character_1.time_played == 0
+        assert reward_character_1.acps == 0
+        assert reward_character_1.tcps == 0
 
         assert reward_character_2.money == 600
         assert not reward_character_2.applied
-        assert reward_character_2.time_played == 0
+        assert reward_character_1.acps == 0
+        assert reward_character_1.tcps == 0
 
         assert payday.claimed == 1
         assert result.status == "payday_claimed_succesfully"
@@ -79,11 +81,13 @@ class TestClaimPaydayUseCase(unittest.TestCase):
 
         assert reward_character_1.money == 300
         assert not reward_character_1.applied
-        assert reward_character_1.time_played == 0
+        assert reward_character_1.acps == 0
+        assert reward_character_1.tcps == 0
 
         assert reward_character_2.money == 600
         assert not reward_character_2.applied
-        assert reward_character_2.time_played == 0
+        assert reward_character_1.acps == 0
+        assert reward_character_1.tcps == 0
 
         assert payday.claimed == 1
         assert result.status == "new_claimer_inserted"

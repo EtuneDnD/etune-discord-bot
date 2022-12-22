@@ -8,7 +8,7 @@ from test.db.db_config_test import drop_tables, prepare_tables, connect
 
 
 class TestRegisterCharacterUseCase(unittest.TestCase):
-    def test_register_character_returns_response_with_character_registered(self):
+    def test_register_character_returns_response_with_added_new_character(self):
         drop_tables()
         prepare_tables()
 
@@ -19,19 +19,19 @@ class TestRegisterCharacterUseCase(unittest.TestCase):
 
         result = RegisterCharacterUseCase("test_user", "123", "test_character", 3, "test_author").execute(connect())
 
-        assert result.status == "character_registered"
+        assert result.status == "added_new_character"
         assert result.user_character.character.username == "test_user"
         assert result.user_character.character.level == 3
         assert result.user_character.user.user_id == "123"
         assert result.user_character.user.username == "test_user"
 
-    def test_register_character_returns_response_with_user_registered(self):
+    def test_register_character_returns_response_with_inserted_new_user(self):
         drop_tables()
         prepare_tables()
 
         result = RegisterCharacterUseCase("test_user", "123", "test_character", 3, "test_author").execute(connect())
 
-        assert result.status == "user_registered"
+        assert result.status == "inserted_new_user"
         assert result.user_character.character.username == "test_user"
         assert result.user_character.character.level == 3
         assert result.user_character.user.user_id == "123"

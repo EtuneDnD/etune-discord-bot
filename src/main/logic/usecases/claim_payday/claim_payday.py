@@ -57,7 +57,7 @@ class ClaimPaydayUseCase:
         character_reward_list = []
         for character in characters:
             money = ClaimPaydayUseCase._get_money_for_level(con, character)
-            Reward(character.name, 0, money, False, author).insert_reward(con)
+            Reward(character.name, money, False, author, 0, 0).insert_reward(con)
             character_reward_list.append(CharacterRewardSummary(character.name, character.level, money))
         return character_reward_list
 
