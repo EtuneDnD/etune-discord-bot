@@ -2,5 +2,5 @@ from pydantic import BaseModel
 
 
 class ActorUpdateDTO(BaseModel):
-    actor_base64: str
+    actor_json: str
     level: int

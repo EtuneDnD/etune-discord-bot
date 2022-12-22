@@ -1,0 +1,4976 @@
+{
+  "name": "Test",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 57,
+        "min": 0,
+        "max": 57,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "exhaustion": 0,
+      "inspiration": false,
+      "prof": 3
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "background": "",
+      "originalClass": "r99gPsmD0YAn7GLO",
+      "xp": {
+        "value": 3300,
+        "min": 0,
+        "max": 3360,
+        "pct": 91.07142857142857
+      },
+      "appearance": "",
+      "trait": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [
+          "sim",
+          "mar"
+        ],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [
+          "lgt",
+          "med",
+          "shl"
+        ],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [
+          "music"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "tcp": 1020,
+      "cp": 0,
+      "sp": 4,
+      "ep": 0,
+      "gp": 7,
+      "pp": 1
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 3,
+        "override": null,
+        "max": 3
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "secondary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "tertiary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "test",
+    "displayName": 0,
+    "actorLink": true,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": null,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {
+        "tags": ""
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Bucket",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A bucket holds 3 gallons of liquid or ½ cubic foot of solids.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 0.05,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 25,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/kitchenware/mug-steel-wood-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "bucket_phb"
+        }
+      },
+      "effects": [],
+      "_id": "RCCwVuu8HgD4GwAu",
+      "folder": null,
+      "sort": 5005,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086613540,
+        "modifiedTime": 1670411184197,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 10,
+        "weight": 5,
+        "price": 2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 30,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/bags/pack-simple-leather.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "backpack_phb"
+        },
+        "item-piles": {
+          "item": {
+            "hidden": false,
+            "notForSale": false,
+            "infiniteQuantity": false,
+            "displayQuantity": "default",
+            "free": false,
+            "disableNormalCost": true,
+            "cantBeSoldToMerchants": false,
+            "isService": false,
+            "macro": "",
+            "prices": [
+              [
+                {
+                  "id": "hxOPGN85IX4Pvuy3",
+                  "type": "attribute",
+                  "name": "TCP",
+                  "img": "",
+                  "abbreviation": "{#}TCP",
+                  "data": {
+                    "path": "system.currency.tcp"
+                  },
+                  "quantity": 1,
+                  "fixed": true,
+                  "percent": false
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "effects": [],
+      "_id": "rppvHoP3eEnsG4NO",
+      "folder": null,
+      "sort": 5001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086631215,
+        "modifiedTime": 1670414527978,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "_id": "r99gPsmD0YAn7GLO",
+      "name": "Barbarian",
+      "type": "class",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><table class=\"cls-tbl shadow-big w-100 mb-3\">\n\t\t\t<tbody>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t\n\t\t\t<tr>\n\t\t\t\t<th colspan=\"3\"></th>\n\t\t\t\t<th colspan=\"2\"></th>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<th class=\"cls-tbl__col-level\">Level</th>\n\t\t\t\t<th class=\"cls-tbl__col-prof-bonus\">Proficiency Bonus</th>\n\t\t\t\t<th>Features</th>\n\t\t\t\t<th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\">Rages</div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\">Rage Damage</div></th>\n\t\t\t</tr>\n\t\t\t<tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">1st</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Rage<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Unarmored Defense</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">2nd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Danger Sense<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Survival Instincts<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Reckless Attack</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">3rd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Primal Path<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Primal Knowledge</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">4th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">5th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Extra Attack<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Fast Movement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Instinctive Pounce</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">6th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Path Feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">7th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Feral Instinct<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Instinctive Pounce</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">8th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+2</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">9th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Brutal Critical (1 die)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">10th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Path feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">11th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Relentless Rage</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">12th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">13th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Brutal Critical (2 dice)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">14th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Path feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">15th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Persistent Rage</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">+3</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">16th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">+4</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">17th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Brutal Critical (3 dice)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">+4</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">18th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Indomitable Might</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">+4</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">19th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">+4</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">20th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Primal Champion</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">Unlimited</td><td class=\"cls-tbl__col-generic-center\">+4</td>\n\t\t\t</tr>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t</tbody>\n\t\t</table><div class=\"rd__b  rd__b--0\"><p>A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd.</p><p>A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p><p>Frothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.</p><p>These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.</p><p>For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.</p><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"31\"> <span class=\"entry-title-inner\">Primal Instinct</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature—keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.</p><p>Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"32\"> <span class=\"entry-title-inner\">A Life of Danger</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>Not every member of the tribes deemed \"barbarians\" by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don't have to.</p><p>Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"33\"> <span class=\"entry-title-inner\">Creating a Barbarian</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?</p><p>What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to \"civilized\" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"34\"> <span class=\"entry-title-inner\">Quick Build</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h3> <p>You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the <a href=\"https://5etools-mirror-1.github.io/backgrounds.html#outlander_phb\" data-vet-page=\"backgrounds.html\" data-vet-source=\"PHB\" data-vet-hash=\"outlander_phb\">outlander</a> background.</p></div></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "identifier": "barbarian",
+        "levels": 7,
+        "hitDice": "d12",
+        "hitDiceUsed": 0,
+        "advancement": [
+          {
+            "_id": "62svnflxsuad7oar",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "rages",
+              "type": "number",
+              "scale": {
+                "1": {
+                  "value": 2
+                },
+                "3": {
+                  "value": 3
+                },
+                "6": {
+                  "value": 4
+                },
+                "12": {
+                  "value": 5
+                },
+                "17": {
+                  "value": 6
+                },
+                "20": {
+                  "value": 999
+                }
+              }
+            },
+            "value": {},
+            "title": "Rages",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "t42incolsbuqn2ec",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "rage-damage",
+              "type": "number",
+              "scale": {
+                "1": {
+                  "value": 2
+                },
+                "9": {
+                  "value": 3
+                },
+                "16": {
+                  "value": 4
+                }
+              }
+            },
+            "value": {},
+            "title": "Rage Damage",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "y0kr48pnq5doebeb",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "brutal-critical",
+              "type": "number",
+              "scale": {
+                "9": {
+                  "value": 1
+                },
+                "13": {
+                  "value": 2
+                },
+                "17": {
+                  "value": 3
+                }
+              }
+            },
+            "value": {},
+            "title": "Brutal Critical Dice",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "cKWwRT4NKkGB1K5x",
+            "type": "ItemGrant",
+            "level": 1,
+            "title": "Features",
+            "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "c2Z22mfwMIgY1UIm": "",
+                "BUobF22MQoeW4dlI": ""
+              }
+            }
+          },
+          {
+            "_id": "3WTTSwRq6Fa5j7Ig",
+            "type": "ItemGrant",
+            "level": 2,
+            "title": "Features",
+            "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "OPMNSMor7JVT9RnF": "",
+                "XHOATWlQjLHVrdYJ": ""
+              }
+            }
+          },
+          {
+            "_id": "dFXBFi732PrvOLFV",
+            "type": "ItemGrant",
+            "level": 3,
+            "title": "Features",
+            "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "x8zALswrmq9So7hz": ""
+              }
+            }
+          },
+          {
+            "_id": "YP3LkedHLM9VDb4B",
+            "type": "ItemGrant",
+            "level": 5,
+            "title": "Features",
+            "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "EsC7QyALpHMGGzL2": "",
+                "5V2WjbMuxnQVYKNh": ""
+              }
+            }
+          },
+          {
+            "_id": "CNxM6qZ8REhsbOZ8",
+            "type": "ItemGrant",
+            "level": 7,
+            "title": "Features",
+            "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "AFqCeoTSNXAtLVNe": "",
+                "OnPFR6ft1RuHoqT9": ""
+              }
+            }
+          }
+        ],
+        "saves": [
+          "str",
+          "con"
+        ],
+        "skills": {
+          "number": 2,
+          "choices": [
+            "ath",
+            "nat"
+          ],
+          "value": [
+            "ath",
+            "nat"
+          ]
+        },
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "barbarian_phb",
+          "sourceSubclass": "PHB",
+          "hashSubclass": "barbarian_phb,state:sub-berserker-phb=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 0,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificerRevisited": 0,
+              "UAClassFeatureVariants": 0,
+              "UAArtificer": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 0,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 0,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UALightDarkUnderdark": 0,
+              "UAWaterborneAdventures": 0,
+              "UAFighter": 0,
+              "EGW": 0,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 0,
+              "UAPrestigeClassesRunMagic": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "DSotDQ": 0,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 6,
+                "no": 0,
+                "ignored": 58
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "spellSlotLevelSelection": null,
+          "isDirectImport": true
+        },
+        "midi-qol": {
+          "onUseMacroName": ""
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+      "folder": null,
+      "sort": 20001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341744647,
+        "modifiedTime": 1670347144992,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Rage",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</p><div class=\"rd__spc-inline-post\"></div><p>While raging, you gain the following benefits if you aren't wearing heavy armor:</p><ul class=\"rd__list\"><li class=\"rd__li \">You have advantage on Strength checks and Strength saving throws.</li><li class=\"rd__li \">When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.</li><li class=\"rd__li \">You have resistance to bludgeoning, piercing, and slashing damage.</li></ul><p>If you are able to cast spells, you can't cast them or concentrate on them while raging.</p><p>Your rage lasts for 1 minute. It ends early if you are knocked @condition[unconscious] or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p><p>Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 2,
+          "max": "@scale.barbarian.rages",
+          "per": "lr",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "rage_barbarian_phb_1_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.cKWwRT4NKkGB1K5x"
+        }
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+      "_id": "c2Z22mfwMIgY1UIm",
+      "folder": null,
+      "sort": 112,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341744859,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Unarmored Defense",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "unarmored%20defense_barbarian_phb_1_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.cKWwRT4NKkGB1K5x"
+        }
+      },
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "_id": "BUobF22MQoeW4dlI",
+      "folder": null,
+      "sort": 116,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341744912,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>backpack</i> can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a <i>backpack</i>.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 30,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/bags/pack-simple-leather.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "backpack_phb"
+        }
+      },
+      "effects": [],
+      "_id": "kPLY0pzDOtI1FrVK",
+      "folder": null,
+      "sort": 5002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745624,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 7,
+        "price": 1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/survival/bedroll-grey.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "bedroll_phb"
+        }
+      },
+      "effects": [],
+      "_id": "NThVszKKlNMFTxdS",
+      "folder": null,
+      "sort": 6001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745685,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Mess Kit",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0.2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/tools/cooking/fork-steel-tan.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "mess%20kit_phb"
+        }
+      },
+      "effects": [],
+      "_id": "PxFnW2Of0f0LGBT4",
+      "folder": null,
+      "sort": 6002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745728,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Tinderbox",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/lights/torch-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "tinderbox_phb"
+        }
+      },
+      "effects": [],
+      "_id": "k28djYLNnzbWNeZ9",
+      "folder": null,
+      "sort": 6003,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745769,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Torch",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>torch</i> burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning <i>torch</i> and hit, it deals 1 fire damage.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 10,
+        "weight": 1,
+        "price": 0.01,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 40,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/lights/torch-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "torch_phb"
+        }
+      },
+      "effects": [],
+      "_id": "mS5lFFo71EfylDem",
+      "folder": null,
+      "sort": 3005,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745817,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Rations (1 day)",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p><i>Rations</i> consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 10,
+        "weight": 2,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "food",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/consumables/meat/hock-leg-pink-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "rations%20(1%20day)_phb"
+        }
+      },
+      "effects": [],
+      "_id": "NW7h22GpukvmDWH5",
+      "folder": null,
+      "sort": 3004,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745861,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Waterskin",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>waterskin</i> can hold up to 4 pints of liquid.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 0.2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 4,
+          "max": 4,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "food",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/survival/wetskin-leather-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "waterskin_phb"
+        }
+      },
+      "effects": [],
+      "_id": "gGdT3sS92o3JEyaV",
+      "folder": null,
+      "sort": 3006,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745907,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Hempen Rope (50 feet)",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": 1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "abil",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 17,
+          "scaling": "flat"
+        },
+        "consumableType": "trinket",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "hempen%20rope%20(50%20feet)_phb"
+        }
+      },
+      "effects": [],
+      "_id": "6gYv0Ar85FABrL7Q",
+      "folder": null,
+      "sort": 3002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341745952,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Greataxe",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 7,
+        "price": 30,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d12 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "greataxe",
+        "properties": {
+          "hvy": true,
+          "two": true,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        },
+        "attuned": false
+      },
+      "img": "icons/weapons/axes/axe-double.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "greataxe_phb"
+        }
+      },
+      "effects": [],
+      "_id": "5TK1RdjCR3B20lUL",
+      "folder": null,
+      "sort": 1001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341746002,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Handaxe",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 2,
+        "weight": 2,
+        "price": 5,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "ammo",
+          "target": "HLvT7ZoEo0f2xwbO",
+          "amount": 1
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "handaxe",
+        "properties": {
+          "lgt": true,
+          "thr": true,
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        },
+        "attuned": false
+      },
+      "img": "icons/weapons/axes/axe-broad-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "handaxe_phb"
+        }
+      },
+      "effects": [],
+      "_id": "HLvT7ZoEo0f2xwbO",
+      "folder": null,
+      "sort": 1002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341746054,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Javelin",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 4,
+        "weight": 2,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "ammo",
+          "target": "mUIzFwJmbZtfUO8P",
+          "amount": 1
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "javelin",
+        "properties": {
+          "thr": true,
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        },
+        "attuned": false
+      },
+      "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "javelin_phb"
+        }
+      },
+      "effects": [],
+      "_id": "mUIzFwJmbZtfUO8P",
+      "folder": null,
+      "sort": 1003,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341746147,
+        "modifiedTime": 1670341746368,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Danger Sense",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be @condition[blinded], @condition[deafened], or @condition[incapacitated].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "danger%20sense_barbarian_phb_2_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.3WTTSwRq6Fa5j7Ig"
+        }
+      },
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "_id": "OPMNSMor7JVT9RnF",
+      "folder": null,
+      "sort": 102,
+      "ownership": {
+        "default": 0,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341832778,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Reckless Attack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "reckless%20attack_barbarian_phb_2_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.3WTTSwRq6Fa5j7Ig"
+        }
+      },
+      "img": "icons/skills/melee/blade-tips-triple-bent-white.webp",
+      "_id": "XHOATWlQjLHVrdYJ",
+      "folder": null,
+      "sort": 113,
+      "ownership": {
+        "default": 0,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341832854,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "0gVpQZHtUBySccgX",
+      "name": "Path of the Berserker",
+      "type": "subclass",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><div class=\"rd__b  rd__b--1\"><p>For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "identifier": "path-of-the-berserker",
+        "classIdentifier": "barbarian",
+        "advancement": [
+          {
+            "_id": "F7KINFBzlYO4WepN",
+            "type": "ItemGrant",
+            "level": 3,
+            "title": "Features",
+            "icon": "icons/skills/melee/strike-flail-destructive-yellow.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "r9WvZPLNYa5UZyDO": ""
+              }
+            }
+          },
+          {
+            "_id": "Wbu6hOs9Z8kIsHsd",
+            "type": "ItemGrant",
+            "level": 6,
+            "title": "Features",
+            "icon": "icons/skills/melee/strike-flail-destructive-yellow.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "YjwebdOkGDZoQ100": ""
+              }
+            }
+          }
+        ],
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "barbarian_phb",
+          "sourceSubclass": "PHB",
+          "hashSubclass": "barbarian_phb,state:sub-berserker-phb=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 0,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificerRevisited": 0,
+              "UAClassFeatureVariants": 0,
+              "UAArtificer": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 0,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 0,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UALightDarkUnderdark": 0,
+              "UAWaterborneAdventures": 0,
+              "UAFighter": 0,
+              "EGW": 0,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 0,
+              "UAPrestigeClassesRunMagic": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "DSotDQ": 0,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 6,
+                "no": 0,
+                "ignored": 58
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "isDirectImport": true
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
+      "folder": null,
+      "sort": 20002,
+      "ownership": {
+        "default": 0,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341850687,
+        "modifiedTime": 1670347195862,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Frenzy",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of @condition[exhaustion].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Path of the Berserker 3",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "subclassFeature",
+          "source": "PHB",
+          "hash": "frenzy_barbarian_phb_berserker_phb_3_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "0gVpQZHtUBySccgX.F7KINFBzlYO4WepN"
+        }
+      },
+      "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+      "_id": "r9WvZPLNYa5UZyDO",
+      "folder": null,
+      "sort": 106,
+      "ownership": {
+        "default": 0,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341850848,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "x8zALswrmq9So7hz",
+      "name": "Primal Knowledge",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>3rd-level barbarian @variantrule[optional class features|tce|optional feature]</i></p><p>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Barbarian 3",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "TCE",
+          "hash": "primal%20knowledge_barbarian_phb_3_tce"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.dFXBFi732PrvOLFV"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 111,
+      "ownership": {
+        "default": 0,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670341858465,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Extra Attack",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the @action[Attack] action on your turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 5, Monk 5, Paladin 5, Ranger 5",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "extra%20attack_barbarian_phb_5_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.YP3LkedHLM9VDb4B"
+        }
+      },
+      "img": "icons/skills/melee/spear-tips-triple-orange.webp",
+      "_id": "EsC7QyALpHMGGzL2",
+      "folder": null,
+      "sort": 103,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347047010,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Fast Movement",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 5",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [
+        {
+          "label": "Fast Movement",
+          "icon": "icons/skills/movement/feet-winged-boots-brown.webp",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": 7
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "tint": null,
+          "transfer": true,
+          "flags": {},
+          "_id": "aXKhKTQX4X2t1PZ0"
+        }
+      ],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "fast%20movement_barbarian_phb_5_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.YP3LkedHLM9VDb4B"
+        }
+      },
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "_id": "5V2WjbMuxnQVYKNh",
+      "folder": null,
+      "sort": 104,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347047087,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Mindless Rage",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Beginning at 6th level, you can't be @condition[charmed] or @condition[frightened] while raging. If you are @condition[charmed] or @condition[frightened] when you enter your rage, the effect is suspended for the duration of the rage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Path of the Berserker 6",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "subclassFeature",
+          "source": "PHB",
+          "hash": "mindless%20rage_barbarian_phb_berserker_phb_6_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "0gVpQZHtUBySccgX.Wbu6hOs9Z8kIsHsd"
+        }
+      },
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "_id": "YjwebdOkGDZoQ100",
+      "folder": null,
+      "sort": 110,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347133261,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Feral Instinct",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</p><div class=\"rd__spc-inline-post\"></div><p>Additionally, if you are surprised at the beginning of combat and aren't @condition[incapacitated], you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 7",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "feral%20instinct_barbarian_phb_7_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.CNxM6qZ8REhsbOZ8"
+        }
+      },
+      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+      "_id": "AFqCeoTSNXAtLVNe",
+      "folder": null,
+      "sort": 105,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347144819,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "OnPFR6ft1RuHoqT9",
+      "name": "Instinctive Pounce",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>7th-level barbarian @variantrule[optional class features|tce|optional feature]</i></p><p>As part of the bonus action you take to enter your rage, you can move up to half your speed.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Barbarian 7",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "TCE",
+          "hash": "instinctive%20pounce_barbarian_phb_7_tce"
+        },
+        "dnd5e": {
+          "advancementOrigin": "r99gPsmD0YAn7GLO.CNxM6qZ8REhsbOZ8"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 107,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347144906,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Mage Hand",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "space"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/light/orbs-hand-gray.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "mage%20hand_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Creation",
+          "parentSubclassSource": "TCE"
+        }
+      },
+      "effects": [],
+      "_id": "VK0ooJyiqeh5Ro2v",
+      "folder": null,
+      "sort": 10001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347195430,
+        "modifiedTime": 1670347195862,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Minor Illusion",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (@skill[Investigation]) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/perception/eye-winged-pink.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "minor%20illusion_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Creation",
+          "parentSubclassSource": "TCE"
+        }
+      },
+      "effects": [],
+      "_id": "HmqyqE4Y6dOG3a3B",
+      "folder": null,
+      "sort": 10002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347195502,
+        "modifiedTime": 1670347195862,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "wt471sjDSCC0JUXL",
+      "name": "Bard",
+      "type": "class",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><table class=\"cls-tbl shadow-big w-100 mb-3\">\n\t\t\t<tbody>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t\n\t\t\t<tr>\n\t\t\t\t<th colspan=\"3\"></th>\n\t\t\t\t<th colspan=\"2\"></th><th class=\"cls-tbl__col-group\" colspan=\"9\">Spell Slots per Spell Level</th>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<th class=\"cls-tbl__col-level\">Level</th>\n\t\t\t\t<th class=\"cls-tbl__col-prof-bonus\">Proficiency Bonus</th>\n\t\t\t\t<th>Features</th>\n\t\t\t\t<th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:0=1,flstclass:bard=1\">Cantrips Known</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">Spells Known</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:1=1,flstclass:bard=1\">1st</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:2=1,flstclass:bard=1\">2nd</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:3=1,flstclass:bard=1\">3rd</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:4=1,flstclass:bard=1\">4th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:5=1,flstclass:bard=1\">5th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:6=1,flstclass:bard=1\">6th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:7=1,flstclass:bard=1\">7th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:8=1,flstclass:bard=1\">8th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:9=1,flstclass:bard=1\">9th</a></div></th>\n\t\t\t</tr>\n\t\t\t<tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">1st</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spellcasting<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spell Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">2nd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Jack of All Trades<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Song of Rest (d6)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">3rd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bard College<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">4th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bardic Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">7</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">5th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d8)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Font of Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">8</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">6th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Countercharm<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">9</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">7th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">10</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">8th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">11</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">9th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d8)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">12</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">10th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d10)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">14</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">11th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">12th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">13th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d10)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">16</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">14th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">18</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">15th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">16th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">17th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">20</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">18th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">19th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">20th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Superior Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t</tbody>\n\t\t</table><div class=\"rd__b  rd__b--0\"><p>Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.</p><p>A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.</p><p>Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions' words will be well received.</p><p>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.</p><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"26\"> <span class=\"entry-title-inner\">Music and Magic</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>In the worlds of D&amp;D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.</p><p>The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"27\"> <span class=\"entry-title-inner\">Learning from Experience</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.</p><p>Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"28\"> <span class=\"entry-title-inner\">Creating a Bard</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>Bards thrive on stories, whether those stories are true or not. Your character's background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There's no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.</p><p>Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"29\"> <span class=\"entry-title-inner\">Quick Build</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h3> <p>You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the <a href=\"https://5etools-mirror-1.github.io/backgrounds.html#entertainer_phb\" data-vet-page=\"backgrounds.html\" data-vet-source=\"PHB\" data-vet-hash=\"entertainer_phb\">entertainer</a> background. Third, choose the <a href=\"https://5etools-mirror-1.github.io/spells.html#dancing%20lights_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"dancing%20lights_phb\">dancing lights</a> and <a href=\"https://5etools-mirror-1.github.io/spells.html#vicious%20mockery_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"vicious%20mockery_phb\">vicious mockery</a> cantrips, along with the following 1st-level spells: <a href=\"https://5etools-mirror-1.github.io/spells.html#charm%20person_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"charm%20person_phb\">charm person</a>, <a href=\"https://5etools-mirror-1.github.io/spells.html#detect%20magic_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"detect%20magic_phb\">detect magic</a>, <a href=\"https://5etools-mirror-1.github.io/spells.html#healing%20word_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"healing%20word_phb\">healing word</a>, and <a href=\"https://5etools-mirror-1.github.io/spells.html#thunderwave_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"thunderwave_phb\">thunderwave</a>.</p></div></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "identifier": "bard",
+        "levels": 2,
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "advancement": [
+          {
+            "_id": "vc31v6423jmiex1p",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "inspiration",
+              "type": "dice",
+              "scale": {
+                "1": {
+                  "n": null,
+                  "die": 6
+                },
+                "5": {
+                  "n": null,
+                  "die": 8
+                },
+                "10": {
+                  "n": null,
+                  "die": 10
+                },
+                "15": {
+                  "n": null,
+                  "die": 12
+                }
+              }
+            },
+            "value": {},
+            "title": "Bardic Inspiration Die",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "kf9gpqhy2mdx6hes",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "song-of-rest",
+              "type": "dice",
+              "scale": {
+                "2": {
+                  "n": null,
+                  "die": 6
+                },
+                "9": {
+                  "n": null,
+                  "die": 8
+                },
+                "13": {
+                  "n": null,
+                  "die": 10
+                },
+                "17": {
+                  "n": null,
+                  "die": 12
+                }
+              }
+            },
+            "value": {},
+            "title": "Song of Rest Die",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "KodsdVMat7ugZozf",
+            "type": "ItemGrant",
+            "level": 1,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "Gbz7bTDGcbTFQxNx": "",
+                "YCbjuMOJkielqfmb": ""
+              }
+            }
+          },
+          {
+            "_id": "tH7nP9G9TSL99QPx",
+            "type": "ItemGrant",
+            "level": 2,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "afxQG4HsJc33W7jb": "",
+                "xg04eoRYXB5d4ves": "",
+                "1awEpvWcJGsRqWkh": ""
+              }
+            }
+          }
+        ],
+        "saves": [],
+        "skills": {
+          "number": 1,
+          "choices": [
+            "acr",
+            "ani",
+            "arc",
+            "ath",
+            "dec",
+            "his",
+            "ins",
+            "itm",
+            "inv",
+            "med",
+            "nat",
+            "prc",
+            "prf",
+            "per",
+            "rel",
+            "slt",
+            "ste",
+            "sur"
+          ],
+          "value": [
+            "itm"
+          ]
+        },
+        "spellcasting": {
+          "progression": "full",
+          "ability": "cha"
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "bard_phb",
+          "sourceSubclass": "TCE",
+          "hashSubclass": "bard_phb,state:sub-creation-tce=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 1,
+              "UAClassFeatureVariants": 0,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificer": 0,
+              "UAArtificerRevisited": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 1,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 1,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UAFighter": 0,
+              "EGW": 1,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "Generic": 1,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 1,
+              "UAPrestigeClassesRunMagic": 0,
+              "UALightDarkUnderdark": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAWaterborneAdventures": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "DSotDQ": 1,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 13,
+                "no": 0,
+                "ignored": 52
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "isDirectImport": true
+        },
+        "midi-qol": {
+          "onUseMacroName": ""
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "folder": null,
+      "sort": 20002,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347195602,
+        "modifiedTime": 1670508472820,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "LbLqDSuv7nrzIV7q",
+      "name": "College of Creation",
+      "type": "subclass",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><div class=\"rd__b  rd__b--1\"><p>Bards believe the cosmos is a work of art-the creation of the first dragons and gods. That creative work included harmonies that continue to resound through existence today, a power known as the Song of Creation. The bards of the College of Creation draw on that primeval song through dance, music, and poetry, and their teachers share this lesson:</p><p>\"Before the sun and the moon, there was the Song, and its music awoke the first dawn. Its melodies so delighted the stones and trees that some of them gained a voice of their own. And now they sing too. Learn the Song, students, and you too can teach the mountains to sing and dance.\"</p><p>Dwarves and gnomes often encourage their bards to become students of the Song of Creation. And among dragonborn, the Song of Creation is revered, for legends portray Bahamut and Tiamat-the greatest of dragons-as two of the song's first singers.</p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "identifier": "college-of-creation",
+        "classIdentifier": "bard",
+        "advancement": [],
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "bard_phb",
+          "sourceSubclass": "TCE",
+          "hashSubclass": "bard_phb,state:sub-creation-tce=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 1,
+              "UAClassFeatureVariants": 0,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificer": 0,
+              "UAArtificerRevisited": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 1,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 1,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UAFighter": 0,
+              "EGW": 1,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "Generic": 1,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 1,
+              "UAPrestigeClassesRunMagic": 0,
+              "UALightDarkUnderdark": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAWaterborneAdventures": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "DSotDQ": 1,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 13,
+                "no": 0,
+                "ignored": 52
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": false,
+          "isDirectImport": true
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "folder": null,
+      "sort": 20001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347195638,
+        "modifiedTime": 1670347195862,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Bardic Inspiration",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a [[/r d6]].</p><div class=\"rd__spc-inline-post\"></div><p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the [[/r d20]] before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p><p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a [[/r d8]] at 5th level, a [[/r d10]] at 10th level, and a [[/r d12]] at 15th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": "max(1, @abilities.cha.mod)",
+          "per": "lr",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1@scale.bard.inspiration",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "bardic%20inspiration_bard_phb_1_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "wt471sjDSCC0JUXL.KodsdVMat7ugZozf"
+        }
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "_id": "Gbz7bTDGcbTFQxNx",
+      "folder": null,
+      "sort": 101,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347195941,
+        "modifiedTime": 1670347196341,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Spellcasting",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,10\">chapter 10</a> for the general rules of spellcasting and <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,11\">chapter 11</a> for the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">bard spell list</a>.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"30\"> <span class=\"entry-title-inner\">Cantrips.</span></span> <p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"31\"> <span class=\"entry-title-inner\">Spell Slots.</span></span> <p>The Bard table shows how many spell slots you have to cast your <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">bard spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><div class=\"rd__spc-inline-post\"></div><p>For example, if you know the 1st-level spell @spell[cure wounds] and have a 1st-level and a 2nd-level spell slot available, you can cast @spell[cure wounds] using either slot.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"32\"> <span class=\"entry-title-inner\">Spells Known of 1st Level and Higher.</span></span> <p>You know four 1st-level spells of your choice from the bard spell list.</p><div class=\"rd__spc-inline-post\"></div><p>You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"33\"> <span class=\"entry-title-inner\">Spellcasting Ability.</span></span> <p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p><div class=\"rd__spc-inline-post\"></div><p></p><div class=\"text-center\"><b>Spell save DC</b> = 8 + your proficiency bonus + your Charisma modifier</div><p></p><p></p><div class=\"text-center\"><b>Spell attack modifier</b> = your proficiency bonus + your Charisma modifier</div><p></p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"34\"> <span class=\"entry-title-inner\">Ritual Casting.</span></span> <p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"35\"> <span class=\"entry-title-inner\">Spellcasting Focus.</span></span> <p>You can use a @item[musical instrument|PHB] as a spellcasting focus for your bard spells.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "spellcasting_bard_phb_1_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "wt471sjDSCC0JUXL.KodsdVMat7ugZozf"
+        }
+      },
+      "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+      "_id": "YCbjuMOJkielqfmb",
+      "folder": null,
+      "sort": 115,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670347196021,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Iron Spike",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 0.1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket",
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/survival/stake-rough-simple-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "iron%20spike_phb"
+        }
+      },
+      "effects": [],
+      "_id": "DwUu1ut12UOqpo5x",
+      "folder": null,
+      "sort": 3003,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086623749,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Feed (per day)",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": 0.05,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "food",
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/consumables/grains/sack-rice-open-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "feed%20(per%20day)_phb"
+        }
+      },
+      "effects": [],
+      "_id": "9XHpjqHfM95qmZg9",
+      "folder": null,
+      "sort": 3001,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086621220,
+        "modifiedTime": 1670410623618,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Basket",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A basket holds 2 cubic feet or 40 pounds of gear.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 0.4,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 40,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/environment/traps/cage-simple-wood.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "basket_phb"
+        }
+      },
+      "effects": [],
+      "_id": "CImyeP1NgLBSaX0D",
+      "folder": null,
+      "sort": 5004,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086613086,
+        "modifiedTime": 1670411184197,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Barrel",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 70,
+        "price": 2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 334,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "barrel_phb"
+        }
+      },
+      "effects": [],
+      "_id": "3ELlmd82n1v2o7K7",
+      "folder": null,
+      "sort": 5003,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086612977,
+        "modifiedTime": 1670411184197,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Glass Bottle",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A bottle holds 1½ pints of liquid.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 40,
+        "weight": 2,
+        "price": 2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 6,
+          "weightless": false
+        },
+        "currency": {
+          "tcp": 0,
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "glass%20bottle_phb"
+        }
+      },
+      "effects": [],
+      "_id": "mXBEhnjViGIMK9Gu",
+      "folder": null,
+      "sort": 5006,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3,
+        "zy0kODxR2yuy8zO6": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670086621966,
+        "modifiedTime": 1670411472370,
+        "lastModifiedBy": "zy0kODxR2yuy8zO6"
+      }
+    },
+    {
+      "name": "Jack of All Trades",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [
+        {
+          "label": "Jack of All Trades",
+          "icon": "icons/commodities/tech/cog-steel.webp",
+          "changes": [
+            {
+              "key": "flags.dnd5e.jackOfAllTrades",
+              "mode": 5,
+              "value": "true",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "tint": null,
+          "transfer": true,
+          "flags": {},
+          "_id": "yCHe0ItbSVCphxcH"
+        }
+      ],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "jack%20of%20all%20trades_bard_phb_2_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "wt471sjDSCC0JUXL.tH7nP9G9TSL99QPx"
+        }
+      },
+      "img": "icons/commodities/tech/cog-steel.webp",
+      "_id": "afxQG4HsJc33W7jb",
+      "folder": null,
+      "sort": 108,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670508472280,
+        "modifiedTime": 1670508472901,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "name": "Song of Rest (d6)",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra [[/r 1d6]] hit points.</p><div class=\"rd__spc-inline-post\"></div><p>The extra hit points increase when you reach certain levels in this class: to [[/r 1d8]] at 9th level, to [[/r 1d10]] at 13th level, and to [[/r 1d12]] at 17th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1@scale.bard.song-of-rest",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "song%20of%20rest%20(d6)_bard_phb_2_phb"
+        },
+        "dnd5e": {
+          "advancementOrigin": "wt471sjDSCC0JUXL.tH7nP9G9TSL99QPx"
+        }
+      },
+      "img": "icons/magic/life/cross-worn-green.webp",
+      "_id": "xg04eoRYXB5d4ves",
+      "folder": null,
+      "sort": 114,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670508472611,
+        "modifiedTime": 1670508473106,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    },
+    {
+      "_id": "1awEpvWcJGsRqWkh",
+      "name": "Magical Inspiration",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>2nd-level bard @variantrule[optional class features|tce|optional feature]</i></p><p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "TCE",
+          "hash": "magical%20inspiration_bard_phb_2_tce"
+        },
+        "dnd5e": {
+          "advancementOrigin": "wt471sjDSCC0JUXL.tH7nP9G9TSL99QPx"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 109,
+      "ownership": {
+        "default": 0,
+        "4rkPnoaGgaMEIREN": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.290",
+        "createdTime": 1670508472705,
+        "modifiedTime": 1670508473105,
+        "lastModifiedBy": "4rkPnoaGgaMEIREN"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "label": "Fast Movement",
+      "icon": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": 7
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 1665828624,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null,
+        "combat": null
+      },
+      "origin": "Actor.L8VB0jey6tWbrs4K.Item.5V2WjbMuxnQVYKNh",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "times-up": {
+          "isPassive": true
+        }
+      },
+      "_id": "aXKhKTQX4X2t1PZ0"
+    },
+    {
+      "label": "Jack of All Trades",
+      "icon": "icons/commodities/tech/cog-steel.webp",
+      "changes": [
+        {
+          "key": "flags.dnd5e.jackOfAllTrades",
+          "mode": 5,
+          "value": "true",
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 1665864624,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null,
+        "combat": null
+      },
+      "origin": "Actor.L8VB0jey6tWbrs4K.Item.afxQG4HsJc33W7jb",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "times-up": {
+          "isPassive": true
+        }
+      },
+      "_id": "yCHe0ItbSVCphxcH"
+    }
+  ],
+  "flags": {
+    "spellpoints5e": {
+      "resources": {
+        "maxLevel": 1,
+        "points": {
+          "max": 6,
+          "value": 0,
+          "addMax": 0,
+          "temp": 0
+        },
+        "uses": {
+          "spell6": {
+            "max": 0,
+            "value": 0,
+            "override": null
+          },
+          "spell7": {
+            "max": 0,
+            "value": 0,
+            "override": null
+          },
+          "spell8": {
+            "max": 0,
+            "value": 0,
+            "override": null
+          },
+          "spell9": {
+            "max": 0,
+            "value": 0,
+            "override": null
+          }
+        }
+      }
+    },
+    "midi-qol": {
+      "concentration-damage": 0
+    },
+    "exportSource": {
+      "world": "etune-example-world",
+      "system": "dnd5e",
+      "coreVersion": "10.290",
+      "systemVersion": "2.0.3"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.290",
+    "createdTime": 1670101849157,
+    "modifiedTime": 1670756016843,
+    "lastModifiedBy": "4rkPnoaGgaMEIREN"
+  }
+}
