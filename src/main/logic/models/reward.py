@@ -1,5 +1,5 @@
 from sqlite3 import Connection
-from typing import List
+from typing import List, Self
 
 from main.db.sql_statements import Reward as RewardSql
 
@@ -17,22 +17,18 @@ class Reward:
         self.character_name = character_name
 
     @staticmethod
-    def check_rewards(con: Connection, character_name: str) -> bool:
-        return Reward.check_character_has_rewards(con, character_name)
-
-    @staticmethod
-    def get_and_consume_rewards(con: Connection, character_name: str) -> List[tuple]:
+    def get_and_consume_rewards(con: Connection, character_name: str) -> List[Self]:
         cur = con.cursor()
 
-        rewards = Reward.get_rewards(cur, character_name)
-        Reward.consume_all_rewards(cur, character_name)
+        rewards = Reward.get_rewards(con, character_name)
+        Reward.consume_all_rewards(con, character_name)
 
         cur.close()
 
         return rewards
 
     @staticmethod
-    def get_rewards(con: Connection, character_name: str) -> List[tuple]:
+    def get_rewards(con: Connection, character_name: str) -> list[Self]:
         cur = con.cursor()
         cur.execute(
             RewardSql.select_rewads,
@@ -42,7 +38,7 @@ class Reward:
         rewards = cur.fetchall()
         cur.close()
 
-        return rewards
+        return [Reward(*reward) for reward in rewards]
 
     @staticmethod
     def consume_all_rewards(con: Connection, character_name: str):
@@ -62,10 +58,10 @@ class Reward:
             (character_name,)
         )
 
-        rewards = cur.fetchone()
+        rewards = cur.fetchone()[0]
         cur.close()
 
-        return rewards
+        return False if rewards == 0 else True
 
     def insert_reward(self, con: Connection):
         cur = con.cursor()

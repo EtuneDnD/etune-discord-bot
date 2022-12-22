@@ -1,7 +1,7 @@
 class Reward:
     # Selects
     select_exists_rewards = "SELECT COUNT(1) FROM rewards WHERE character_name = ? AND applied = 0;"
-    select_rewads = "SELECT time_played, soul_stone, money FROM rewards WHERE character_name = ? AND applied = 0;"
+    select_rewads = "SELECT * FROM rewards WHERE character_name = ? AND applied = 0;"
 
     # Inserts
     insert_reward = "INSERT INTO rewards (character_name, money, applied, author, acps, tcps) VALUES (?,?,?,?,?,?)"
