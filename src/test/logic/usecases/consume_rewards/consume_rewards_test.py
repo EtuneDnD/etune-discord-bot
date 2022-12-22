@@ -28,9 +28,9 @@ class TestConsumeRewardsUseCase(unittest.TestCase):
         for row in result:
             assert row[2] == 1
         assert response.status == "rewards_consumed"
-        assert response.rewards_accumalated_summary.acp_acc == 110
-        assert response.rewards_accumalated_summary.tcp_acc == 132
-        assert response.rewards_accumalated_summary.money_acc == 11
+        assert response.rewards_accumulated_summary.acp_acc == 110
+        assert response.rewards_accumulated_summary.tcp_acc == 132
+        assert response.rewards_accumulated_summary.money_acc == 11
 
     def test_no_rewards(self):
         drop_tables()
@@ -39,4 +39,4 @@ class TestConsumeRewardsUseCase(unittest.TestCase):
         response = ConsumeRewardsUseCase("test_character").execute(connect())
 
         assert response.status == "no_rewards"
-        assert response.rewards_accumalated_summary is None
+        assert response.rewards_accumulated_summary is None

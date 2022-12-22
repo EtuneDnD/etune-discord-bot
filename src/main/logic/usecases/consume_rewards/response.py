@@ -2,6 +2,6 @@ from main.logic.usecases.consume_rewards.rewards_accumulated_summary import Rewa
 
 
 class Response:
-    def __init__(self, status: str, rewards_accumalated_summary: RewardsAccumulatedSummary):
+    def __init__(self, status: str, rewards_accumulated_summary: RewardsAccumulatedSummary):
         self.status = status
-        self.rewards_accumalated_summary = rewards_accumalated_summary
+        self.rewards_accumulated_summary = rewards_accumulated_summary
