@@ -1,8 +1,9 @@
+import os
 import sqlite3
 
 from main.db import sql_statements
 
-db_url = "../../database.db"
+db_url = os.getenv("ETUNE_DB_PATH")
 
 
 def connect():
