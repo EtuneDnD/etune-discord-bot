@@ -1,9 +1,10 @@
 import os
-import sqlite3
 from sqlite3 import Connection
 
 from dotenv import load_dotenv
 from github import Github, GithubException
+
+from main.db.db_config import connect
 
 
 def get_changes(con: Connection):
@@ -29,7 +30,6 @@ def update_pushed_characters(con: Connection, character_names: list[str]):
 
 
 def push_change_single_character(character_name: str, base64):
-    load_dotenv()
     g = Github(os.getenv('TOKEN'))
 
     repo = g.get_repo("EtuneDnD/etune-shared-compendium-db")
@@ -66,4 +66,5 @@ def periodic_github_push_action(con: Connection):
 
 
 if __name__ == '__main__':
-    periodic_github_push_action(sqlite3.connect("../database.db"))
+    load_dotenv(dotenv_path="..\\.env")
+    periodic_github_push_action(connect())

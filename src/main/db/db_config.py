@@ -3,11 +3,9 @@ import sqlite3
 
 from main.db import sql_statements
 
-db_url = os.getenv("ETUNE_DB_PATH")
-
 
 def connect():
-    return sqlite3.connect(db_url)
+    return sqlite3.connect(os.getenv("ETUNE_DB_PATH"))
 
 
 def prepare_tables():

@@ -53,5 +53,5 @@ async def register_user_and_character(ctx, user: discord.Option(discord.Member, 
 
 
 def start_bot():
-    load_dotenv()
+    load_dotenv(dotenv_path="..\\.env")
     bot.run(os.getenv('DISCORD_TOKEN'))
