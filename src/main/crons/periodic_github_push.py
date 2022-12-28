@@ -1,3 +1,4 @@
+import datetime
 import os
 from sqlite3 import Connection
 
@@ -67,6 +68,5 @@ def periodic_github_push_action(con: Connection):
 
 if __name__ == '__main__':
     load_dotenv(dotenv_path="..\\.env")
-    print("Starting periodic github push")
     periodic_github_push_action(connect())
-    print("Finished periodic github push")
+    print(f"[{datetime.datetime.now()}] - Finished periodic github push.")
