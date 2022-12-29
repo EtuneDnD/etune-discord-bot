@@ -41,7 +41,7 @@ class Character:
     insert_character = "INSERT INTO characters (character_name, level, username, author) VALUES (?,?,?,?)"
 
     # Updates
-    update_character = "UPDATE characters (level, username, author, actor_json) VALUES (?,?,?,?) WHERE character_name = ?"
+    update_character = "UPDATE characters SET level = ?, username = ?, author = ?, actor_json = ? WHERE character_name = ?"
 
 
 class MoneyPerLevel:

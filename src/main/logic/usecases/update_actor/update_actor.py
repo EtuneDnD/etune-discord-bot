@@ -9,7 +9,7 @@ class UpdateActor:
         self.character_name = character_name
         self.actor_update = actor_update
 
-    def execute(self, con=connect()):
+    def execute(self, con):
         if Character.check_character_exists(con, self.character_name):
             character = Character.get_character_by_character_name(con, self.character_name)
             character.level = self.actor_update.level

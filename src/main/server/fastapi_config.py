@@ -18,7 +18,7 @@ async def root(character_name: str):
 
 @app.put("/actor/{character_name}", status_code=HTTP_204_NO_CONTENT)
 async def root(character_name: str, actor_update: ActorUpdateDTO):
-    UpdateActor(character_name, actor_update).execute()
+    UpdateActor(character_name, actor_update).execute(connect())
 
 
 def init_fastapi():
