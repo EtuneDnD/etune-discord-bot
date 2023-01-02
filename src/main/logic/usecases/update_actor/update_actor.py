@@ -1,4 +1,4 @@
-from main.db.db_config import connect
+from main.db.db_config import connect, commit_close
 
 from main.logic.models.character import Character
 from main.server.dto.actor_update_dto import ActorUpdateDTO
@@ -15,3 +15,4 @@ class UpdateActor:
             character.level = self.actor_update.level
             character.actor_json = self.actor_update.actor_json
             character.update(con)
+            commit_close(con)
