@@ -57,4 +57,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
+            cd ~/deploys/etune-discord-bot
+            wget https://raw.githubusercontent.com/EtuneDnD/etune-discord-bot/main/src/ops/Docker/docker-compose.yaml
+            docker-compose up -d
