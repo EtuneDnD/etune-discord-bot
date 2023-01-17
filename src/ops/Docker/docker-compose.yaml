@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+
+  fastapi:
+    image: test:latest
+    ports:
+      - "5000:80"
+    deploy:
+      restart_policy:
+        condition: on-failure
