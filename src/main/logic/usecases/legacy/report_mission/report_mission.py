@@ -1,11 +1,11 @@
 from sqlite3 import Connection
 
 from main.db.db_config import commit_close
-from main.logic.models.character import Character
-from main.logic.models.reward import Reward
-from main.logic.models.user import User
-from main.logic.usecases.report_mission.character_user_reward import CharacterUserReward
-from main.logic.usecases.report_mission.response import Response
+from main.logic.models.legacy.character import Character
+from main.logic.models.legacy.reward import Reward
+from main.logic.models.legacy.user import User
+from main.logic.usecases.legacy.report_mission.character_user_reward import CharacterUserReward
+from main.logic.usecases.legacy.report_mission.response import Response
 
 
 class ReportMissionUseCase:

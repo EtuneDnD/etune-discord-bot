@@ -3,10 +3,10 @@ import unittest
 import pytest
 
 from main.logic.exceptions.CustomExceptions import PaydayAlreadyClaimedError, UserHasNoCharactersError
-from main.logic.models.payday import Payday
-from main.logic.models.reward import Reward
-from main.logic.usecases.claim_payday.character_reward_summary import CharacterRewardSummary
-from main.logic.usecases.claim_payday.claim_payday import ClaimPaydayUseCase
+from main.logic.models.legacy.payday import Payday
+from main.logic.models.legacy.reward import Reward
+from main.logic.usecases.legacy.claim_payday import CharacterRewardSummary
+from main.logic.usecases.legacy.claim_payday.claim_payday import ClaimPaydayUseCase
 from test.db.db_config_test import connect
 from test.db.db_config_test import drop_tables
 from test.db.db_config_test import prepare_tables

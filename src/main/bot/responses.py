@@ -1,4 +1,4 @@
-from main.logic.usecases.register_character.response import Response
+from main.logic.usecases.legacy.register_character.response import Response
 
 
 def get_payday_response(response, mention):

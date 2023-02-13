@@ -1,6 +1,6 @@
 import unittest
 
-from main.logic.usecases.consume_rewards.consume_rewards import ConsumeRewardsUseCase
+from main.logic.usecases.legacy.consume_rewards import ConsumeRewardsUseCase
 from test.db.db_config_test import drop_tables, prepare_tables, connect
 
 

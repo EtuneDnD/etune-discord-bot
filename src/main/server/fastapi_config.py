@@ -4,8 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.status import HTTP_204_NO_CONTENT
 
 from main.db.db_config import connect
-from main.logic.usecases.consume_rewards.consume_rewards import ConsumeRewardsUseCase
-from main.logic.usecases.update_actor.update_actor import UpdateActor
+from main.logic.usecases.legacy.consume_rewards import ConsumeRewardsUseCase
+from main.logic.usecases.legacy.update_actor.update_actor import UpdateActor
 from main.server.dto.actor_update_dto import ActorUpdateDTO
 
 app = FastAPI(debug=True)

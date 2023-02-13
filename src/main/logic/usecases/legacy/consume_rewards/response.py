@@ -1,4 +1,4 @@
-from main.logic.usecases.consume_rewards.rewards_accumulated_summary import RewardsAccumulatedSummary
+from main.logic.usecases.legacy.consume_rewards.rewards_accumulated_summary import RewardsAccumulatedSummary
 
 
 class Response:

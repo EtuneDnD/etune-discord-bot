@@ -1,4 +1,4 @@
-from main.logic.usecases.report_mission.character_user_reward import CharacterUserReward
+from main.logic.usecases.legacy.report_mission.character_user_reward import CharacterUserReward
 
 
 class Response:

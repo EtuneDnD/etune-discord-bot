@@ -2,12 +2,12 @@ from sqlite3 import Connection
 
 from main.db.db_config import commit_close
 from main.logic.exceptions.CustomExceptions import PaydayAlreadyClaimedError, UserHasNoCharactersError
-from main.logic.models.character import Character
-from main.logic.models.money_per_level import MoneyPerLevel
-from main.logic.models.payday import Payday
-from main.logic.models.reward import Reward
-from main.logic.usecases.claim_payday.character_reward_summary import CharacterRewardSummary
-from main.logic.usecases.claim_payday.response import Response
+from main.logic.models.legacy.character import Character
+from main.logic.models.legacy.money_per_level import MoneyPerLevel
+from main.logic.models.legacy.payday import Payday
+from main.logic.models.legacy.reward import Reward
+from main.logic.usecases.legacy.claim_payday.character_reward_summary import CharacterRewardSummary
+from main.logic.usecases.legacy.claim_payday.response import Response
 
 
 class ClaimPaydayUseCase:

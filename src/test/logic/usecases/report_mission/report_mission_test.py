@@ -1,6 +1,6 @@
 import unittest
 
-from main.logic.usecases.report_mission.report_mission import ReportMissionUseCase
+from main.logic.usecases.legacy.report_mission import ReportMissionUseCase
 from test.db.db_config_test import drop_tables, prepare_tables, connect
 
 

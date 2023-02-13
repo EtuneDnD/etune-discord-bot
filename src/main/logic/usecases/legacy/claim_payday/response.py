@@ -1,4 +1,4 @@
-from main.logic.usecases.claim_payday.character_reward_summary import CharacterRewardSummary
+from main.logic.usecases.legacy.claim_payday.character_reward_summary import CharacterRewardSummary
 
 
 class Response:

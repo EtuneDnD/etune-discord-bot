@@ -1,4 +1,4 @@
-from main.logic.models.user import User
+from main.logic.models.legacy.user import User
 
 
 class CharacterUserReward:

@@ -1,5 +1,5 @@
-from main.logic.schemas.character_schema import Character
-from main.logic.schemas.user_schema import User
+from main.logic.models.legacy.character import Character
+from main.logic.models.legacy.user import User
 
 
 class UserCharacterSummary:

@@ -1,47 +1,22 @@
-from sqlite3 import Connection
-from typing import List, Self
+from datetime import datetime
 
-from main.db.sql_statements import User as UserSql
+from sqlalchemy import Boolean, DateTime, Column, Integer, String
+from sqlalchemy.orm import relationship
+
+from main.db.database import Base
 
 
-class User:
-    def __init__(self, username: str, user_id: str, author: str, insertion_time: float = None):
-        self.insertion_time = insertion_time
-        self.author = author
-        self.user_id = user_id
-        self.username = username
+class User(Base):
+    __tablename__ = "users"
 
-    def insert(self, con: Connection):
-        cur = con.cursor()
-        cur.execute(
-            UserSql.insert_user,
-            (self.username, self.user_id, self.author)
-        )
-        cur.close()
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True)
+    email = Column(String, unique=True, index=True)
+    hashed_password = Column(String)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime, default=datetime.now)
+    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
 
-    @staticmethod
-    def check_exists(con: Connection, usernaname: str) -> bool:
-        cur = con.cursor()
-        result = cur.execute(
-            UserSql.select_check_user_exists,
-            (usernaname,)
-        ).fetchone()[0]
-        cur.close()
-
-        return False if result == 0 else True
-
-    @staticmethod
-    def get(con: Connection, usernaname: str) -> Self:
-        cur = con.cursor()
-        cur.execute(
-            UserSql.select_user,
-            (usernaname,)
-        )
-        result = cur.fetchone()
-        cur.close()
-
-        return User(*result)
-
-    @staticmethod
-    def get_several(con: Connection, usernames: List[str]) -> List[Self]:
-        return [User.get(con, username) for username in usernames]
+    characters = relationship("Character", back_populates="owner")
+    rewards_applied = relationship("Reward", back_populates="author")
+    paydays = relationship("Payday", back_populates="user")

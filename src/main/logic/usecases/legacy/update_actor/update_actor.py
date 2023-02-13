@@ -1,6 +1,6 @@
-from main.db.db_config import connect, commit_close
+from main.db.db_config import commit_close
 
-from main.logic.models.character import Character
+from main.logic.models.legacy.character import Character
 from main.server.dto.actor_update_dto import ActorUpdateDTO
 
 

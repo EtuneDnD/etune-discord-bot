@@ -3,7 +3,7 @@ import unittest
 import pytest
 
 from main.logic.exceptions.CustomExceptions import CharacterAlreadyExistsError
-from main.logic.usecases.register_character.register_character import RegisterCharacterUseCase
+from main.logic.usecases.legacy.register_character import RegisterCharacterUseCase
 from test.db.db_config_test import drop_tables, prepare_tables, connect
 
 

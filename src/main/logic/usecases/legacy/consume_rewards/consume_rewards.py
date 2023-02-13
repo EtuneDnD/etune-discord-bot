@@ -1,9 +1,9 @@
 from sqlite3 import Connection
 
 from main.db.db_config import commit_close
-from main.logic.models.reward import Reward
-from main.logic.usecases.consume_rewards.response import Response
-from main.logic.usecases.consume_rewards.rewards_accumulated_summary import RewardsAccumulatedSummary
+from main.logic.models.legacy.reward import Reward
+from main.logic.usecases.legacy.consume_rewards.response import Response
+from main.logic.usecases.legacy.consume_rewards.rewards_accumulated_summary import RewardsAccumulatedSummary
 
 
 class ConsumeRewardsUseCase:
